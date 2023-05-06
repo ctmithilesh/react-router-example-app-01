@@ -11,8 +11,8 @@ export default function Navigation() {
                 </Link>
             </li>
             <li>
-                <Link to='/'>
-                    About 
+                <Link to='/users-list'>
+                    List of Users 
                 </Link>
             </li>
             <li>
