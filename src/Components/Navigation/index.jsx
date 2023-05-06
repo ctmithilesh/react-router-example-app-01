@@ -29,7 +29,12 @@ export default function Navigation() {
                 <Link to='/loans'>
                     Loans 
                 </Link>
-            </li>    
+            </li>  
+            <li>
+                <Link to='/admin/login'>
+                    Admin Login
+                </Link>
+            </li>     
         </ul>
     </nav>
   )

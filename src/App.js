@@ -7,6 +7,9 @@ import Navigation from './Components/Navigation';
 import NotFound from './Components/NotFound';
 import UsersList from './Components/UsersList';
 import UserDetails from './Components/UserDetails';
+import AdminLogin from './Components/AdminLogin';
+import AdminDashboard from './Components/AdminDashboard';
+import UserNotFound from './Components/UserNotFound';
 
 
 function App() {
@@ -19,6 +22,9 @@ function App() {
           <Route path='/products' element={<Products />} />
           <Route path='/users-list' element={<UsersList />} />
           <Route path='/user/:email' element={<UserDetails />} />
+          <Route path='/admin/login' element={<AdminLogin />} />
+          <Route path='/admin/dashboard' element={<AdminDashboard />} />
+          <Route path='/user/not/found' element={<UserNotFound />} />
           <Route path="*" element={<NotFound />} />
       </Routes>
     </>
